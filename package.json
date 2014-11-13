@@ -4,6 +4,7 @@
   "private": true,
   "pm": "npm",
   "dependencies": {
+    "request": "^2.48.0",
     "smi.cli": "0.x"
   },
   "scripts": {
@@ -25,7 +26,7 @@
       "packagesDirectory": "node_modules"
     },
     "pio.deploy.converter": {
-  	  "name": "nodejs-server"
+      "name": "nodejs-server"
     }
   },
   "config.plugin": {
