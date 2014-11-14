@@ -70,7 +70,7 @@ exports.app = function (req, res, next) {
 				res.writeHead(200, {
 					"Content-Type": "application/json",
 					"Content-Length": body.length,
-	                "Cache-Control": "max-age=10"  // seconds
+	                "Cache-Control": "max-age=30"  // seconds
 				});
 			    return res.end(body);
 			}
@@ -93,4 +93,3 @@ exports.app = function (req, res, next) {
 		});
 	});
 }
-
